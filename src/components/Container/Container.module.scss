@@ -1,0 +1,27 @@
+@import "src/styles/sass-variables";
+
+.container {
+  padding: 0 30px;
+  max-width: 1180px;
+  margin: 0 auto;
+
+  &.wide {
+    max-width: 1410px;
+  }
+
+  @media screen and (max-width: $desktop-breakpoint) {
+    max-width: 1010px;
+
+    &.wide {
+      max-width: 1090px;
+    }
+  }
+
+  @media screen and (max-width: $tablet-breakpoint) {
+    max-width: unset;
+  }
+
+  @media screen and (max-width: $mobile-large-breakpoint) {
+    padding: 0 15px;
+  }
+}

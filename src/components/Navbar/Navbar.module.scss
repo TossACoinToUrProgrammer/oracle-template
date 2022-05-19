@@ -1,0 +1,32 @@
+.wrapper {
+  padding: 25px 0;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 785px;
+  margin-left: auto;
+}
+
+.link {
+  margin-left: 15px;
+  color: white;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  line-height: 100%;
+}
+
+.rounded {
+  padding: 10px 20px;
+  border-radius: 28px;
+  background-color: var(--darkblue);
+}
