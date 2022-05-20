@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar/Navbar"
 import { Network } from "./components/Network/Network"
 import { Payment } from "./components/Payment/Payment"
 import { Roadmap } from "./components/Roadmap/Roadmap"
+import { Wallets } from "./components/Wallets/Wallets"
 import { WelcomeSection } from "./components/WelcomeSection/WelcomeSection"
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Payment />
       <Roadmap />
       <Network />
+      <Wallets />
     </div>
   )
 }
