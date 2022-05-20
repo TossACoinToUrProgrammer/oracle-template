@@ -1,0 +1,60 @@
+.wrapper {
+  padding: 90px 0 150px;
+}
+
+.head {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 265px);
+  grid-gap: 20px;
+}
+
+.card {
+  width: 265px;
+  height: 361px;
+  padding: 10px;
+
+  box-shadow: 0px 0px 35px rgba(0, 0, 0, 0.15);
+  background-color: var(--white);
+}
+
+.cardBody {
+  padding: 20px;
+  padding-top: 55px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.cardNum {
+  font-size: 18px;
+}
+
+.cardImage {
+  margin-bottom: 52px;
+}
+
+.cardTitle {
+  margin-bottom: 23px;
+  font-family: "Rubik";
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--darkblue);
+  letter-spacing: 0.02em;
+}
+
+.cardText {
+  color: var(--gray2);
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+}
