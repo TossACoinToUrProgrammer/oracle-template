@@ -1,0 +1,39 @@
+.wrapper {
+}
+
+.head {
+  margin-bottom: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.text {
+  margin-bottom: 20px;
+  max-width: 556px;
+}
+
+.container {
+  display: flex;
+}
+
+.body {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 570px;
+}
+
+.imageWrapper {
+  width: 40%;
+  position: relative;
+  margin-right: 20px;
+
+  img {
+    position: absolute;
+    right: -50px;
+    max-width: 200%;
+  }
+}
